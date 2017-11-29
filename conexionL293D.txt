@@ -1,0 +1,14 @@
+Para el L293D las conexiones son por pin comenzando desde el 1
+1- 3.3V DE LA NodeMCU
+2- Control de motor D2
+3- Motor High
+4- GND (prestar atención con las tierras de la fuente)
+5- GND (prestar atención con las tierras de la fuente)
+6- motor Low
+7-Control motor D3
+8- 5.0v de la Bateria/fuente
+
+16- 3.3v de la NodeMCU
+
+Todos los demas no los conecto a nada.
+
