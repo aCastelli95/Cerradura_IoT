@@ -16,15 +16,7 @@ app = Flask(__name__)
 @app.route('/')
 
 def index():
-    # Definir el HILO del servidor
-    # Definir el HILO de la pagina
-    s = socket.socket()
-    s.connect(("192.168.4.1", 3000))
-    mensaje = "ab"
-    s.send(mensaje)
-    recibido= s.recv(20)
-    print recibido
-    print "Adios"
+ 
     return render_template('inicio.html');
 
 
@@ -44,5 +36,5 @@ if __name__ == '__main__':
     #estMete.start()
     #estMete.join()
     #print("Se termino el hilo")
-    app.run(host='localhost', port=81)
+    app.run(host='localhost', port=83)
     #E_mete.termometro()
